@@ -1,0 +1,5 @@
+# items
+item.examplemod.demoitem.name=Demo Item
+item.examplemod.demo_classless_item=Demo Classless Item
+# blocks
+tile.examplemod.demoblock.name=Demo Block
