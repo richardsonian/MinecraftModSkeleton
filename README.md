@@ -3,6 +3,12 @@
 
 _This branch is intended for Minecraft version 1.12 and is bundled with scripts for forge(1.12.2 - 14.23.5.2768). See other branches for older versions, or see the "noforgeincluded" branch for the source with no forge files included._
 
+
+### Features
+- Easy to use, dynamic classes for registering your blocks, items, tile entities, and network messages! Just add one line at the top of the registry file, and all the hard work of registering them in the right places will be done for you.
+- Painless IGuiHandler implementation. Getting a sensical IGuiHandler setup with mutiple blocks can be a huge pain, so this skeleton includes a framework that makes adding a Gui and associating it with a tileEntiy and container only take one line of code. Also, no GUI ids! Just reference the GuiEntry you need by the static field, or by getting it by searching for it by the associated tile entity class.
+
+
 ### How to initialize modding environment for IntelliJ idea
 _steps copied from the [Forge Documentation](https://mcforge.readthedocs.io/en/latest/gettingstarted/#terminal-free-intellij-idea-configuration) (Section: "Terminal-free IntelliJ IDEA configuration")_
 
