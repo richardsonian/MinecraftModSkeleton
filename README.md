@@ -1,7 +1,7 @@
 # MinecraftModSkeleton
 #### A helpful base layout for anyone looking to write a Minecraft mod!
 
-_This branch is intended for Minecraft version 1.12 and is bundled with scripts for forge(1.12.2 - 14.23.5.2768). See other branches for older versions, or see the "bare" branch for the source with no forge files included._
+_This branch is intended for Minecraft version 1.12 and is bundled without any version of forge. See other branches for versions bundled with forge, or copy all the gradle files from a downloaded forge source._
 
 ### How to initialize modding environment for IntelliJ idea
 _steps copied from the [Forge Documentation](https://mcforge.readthedocs.io/en/latest/gettingstarted/#terminal-free-intellij-idea-configuration) (Section: "Terminal-free IntelliJ IDEA configuration")_
