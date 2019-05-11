@@ -1,12 +1,10 @@
-# java
-*.class
-
 # idea
 out
 *.ipr
 *.iws
 *.iml
 .idea
+classes
 
 # gradle
 build
