@@ -1,7 +1,9 @@
 package com.example.examplemod.registries;
 
+import com.example.examplemod.ExampleMod;
 import com.example.examplemod.blocks.BlockDemoBlock;
 import net.minecraft.block.Block;
+import net.minecraft.util.text.TextFormatting;
 import net.minecraftforge.fml.common.registry.GameRegistry.ObjectHolder;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
@@ -11,7 +13,7 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.List;
 
-@ObjectHolder("radiotransfer")
+@ObjectHolder(ExampleMod.MODID)
 public class ModBlocks {
     /*
         Add public static final item fields here: They will be auto-filled with the instance of the item object
@@ -50,7 +52,6 @@ public class ModBlocks {
             ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(anon_block), 0,
                 new ModelResourceLocation(anon_block.getRegistryName(), "inventory"));
          */
-
         demoblock.initModel();
     }
 

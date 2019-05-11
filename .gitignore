@@ -1,10 +1,5 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
+# java
+*.class
 
 # idea
 out
@@ -20,3 +15,4 @@ build
 # other
 eclipse
 run
+
